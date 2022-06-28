@@ -33,10 +33,10 @@ const Review = (props) => {
                             <p className='px-2'>{classReview}</p>
                         </div>
 
-                        <h3 className='py-4 font-bold text-xl text-gray-700'>{completed}</h3>
+                        <h3 className='py-3 font-bold text-xl text-gray-700'>{completed}</h3>
                     </div>
 
-                    <div className='flex items-center'>
+                    <div className='flex items-center pt-5'>
                         <button className='btn bg-violet-600 text-white py-2 px-4 font-bold rounded-full'>See Class Shedule </button>
                         <div className='flex px-7 items-center text-violet-600'>
                             <img src={heart} className="w-5 h-5" alt='' />

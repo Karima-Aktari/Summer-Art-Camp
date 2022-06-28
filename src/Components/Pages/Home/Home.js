@@ -6,7 +6,7 @@ const Home = () => {
         <div className="container mx-auto">
             <h2 className="text-4xl font-bold">Summer Art Camp! 5 Days of Artistis a Painting Monet Van Gogh, Matisse, & More</h2>
             <p className='text-gray-400 font-bold'>Multi-Day Course @</p>
-            <div>
+            <div className='mt-7'>
                 <Reviews />
             </div>
         </div>
